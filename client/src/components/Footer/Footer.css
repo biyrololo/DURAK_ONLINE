@@ -1,0 +1,39 @@
+.footer-img{
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.footer-icon{
+    position: relative;
+    z-index: 2 !important;
+}
+
+.footer-img-container{
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 300px){
+    footer .footer-img,
+    footer .footer-img,
+    footer span,
+    footer .MuiSvgIcon-root
+    {
+        scale: 0.7;
+    }
+    
+    .ruby-icon{
+        top: -4px !important;
+    }
+
+    .ruby-text-icon{
+        top: 8px;
+    }
+}
